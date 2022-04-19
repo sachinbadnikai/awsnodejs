@@ -1,4 +1,4 @@
-import { Sequelize } from "sequelize";
+const { Sequelize } = require('sequelize');
  
 const db = new Sequelize('awstest', 'admin', 'admin123', {
     host: "database-3.c2sv4xf0su16.ap-south-1.rds.amazonaws.com",
