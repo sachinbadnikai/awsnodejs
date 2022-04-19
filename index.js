@@ -1,7 +1,7 @@
-import express from "express";
-import db from "./config/database.js";
-import productRoutes from "./routes/index.js";
-import cors from "cors";
+const express = require("express");
+const db = require("./config/database.js");
+const productRoutes = require("./routes/index.js");
+const cors = require("cors");
  
 const app = express();
  
